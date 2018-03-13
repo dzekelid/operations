@@ -26,7 +26,7 @@ apis:
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-deployments-deploymentname-operations-operationid-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-deployments-deploymentname-operations-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
