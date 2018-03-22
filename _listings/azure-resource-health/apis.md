@@ -11,9 +11,9 @@ tags:
 - Stack Network
 - Monitoring
 - Microsoft
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-resource-health/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Resource Health API
@@ -25,7 +25,7 @@ apis:
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-resource-health/providers-microsoft-resourcehealth-operations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/providers-microsoft-resourcehealth-operations-get.md
 x-common:
 - type: x-faq
   url: https://docs.microsoft.com/en-us/azure/resource-health/resource-health-faq
