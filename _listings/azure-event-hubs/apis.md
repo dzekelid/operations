@@ -13,9 +13,9 @@ tags:
 - Orchestration
 - Microsoft
 - Jobs
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-event-hubs/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-event-hubs/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Event Hubs API
@@ -27,7 +27,7 @@ apis:
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-event-hubs/providers-microsoft-eventhub-operations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-event-hubs/providers-microsoft-eventhub-operations-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/event-hubs/
