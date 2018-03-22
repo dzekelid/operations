@@ -12,9 +12,9 @@ tags:
 - Stack Network
 - Microsoft
 - Applications
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-service-fabric/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-service-fabric/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Service Fabric API
@@ -26,7 +26,7 @@ apis:
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/operations/master/_listings/azure-service-fabric/providers-microsoft-servicefabric-operations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-service-fabric/providers-microsoft-servicefabric-operations-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/service-fabric/
