@@ -12,8 +12,8 @@ tags:
 - Stack Network
 - Google APIs
 - Database
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -27,7 +27,7 @@ apis:
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-operation-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-get.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
