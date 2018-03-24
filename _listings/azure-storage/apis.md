@@ -9,8 +9,8 @@ tags:
 - Storage
 - Stack Network
 - Microsoft
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -23,7 +23,7 @@ apis:
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-storsimple-operations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-importexport-operations-get.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
