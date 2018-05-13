@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: HDInsightManagementClient
-  description: The HDInsight Management Client.
+  title: Azure HDInsight API Operations List
+  description: Lists all of the available HDInsight REST API operations.
   version: 1.0.0
 host: management.azure.com
 basePath: /
