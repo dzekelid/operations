@@ -26,7 +26,22 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/providers-microsoft-resourcehealth-operations-get.md
+- name: Azure Resource Health API Operations List
+  description: Lists available operations for the resourcehealth resource provider
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-health.png
+  humanURL: https://docs.microsoft.com/en-us/azure/resource-health/
+  baseURL: http:://management.azure.com//
+  tags: Operations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/providers-microsoft-resourcehealth-operations-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/providers-microsoft-resourcehealth-operations-get-postman.md
 x-common:
+- type: x-faq
+  url: https://docs.microsoft.com/en-us/azure/resource-health/resource-health-faq
+- type: x-website
+  url: https://docs.microsoft.com/en-us/azure/resource-health/
 - type: x-faq
   url: https://docs.microsoft.com/en-us/azure/resource-health/resource-health-faq
 - type: x-website
