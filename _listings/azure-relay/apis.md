@@ -30,7 +30,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-relay/providers-microsoft-relay-operations-get.md
+- name: Azure Relay API Operations List
+  description: Lists all of the available Relay REST API operations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-relay-bus.png
+  humanURL: ""
+  baseURL: http:://management.azure.com//
+  tags: Operations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-relay/providers-microsoft-relay-operations-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-relay/providers-microsoft-relay-operations-get-postman.md
 x-common:
+- type: x-blog
+  url: https://blogs.msdn.microsoft.com/servicebus/
+- type: x-blog-rss
+  url: https://blogs.msdn.microsoft.com/servicebus/feed/
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/service-bus-relay/
+- type: x-pricing
+  url: https://azure.microsoft.com/pricing/details/service-bus/
+- type: x-stack-overflow
+  url: http://stackoverflow.com/questions/tagged/azure-servicebusrelay
 - type: x-blog
   url: https://blogs.msdn.microsoft.com/servicebus/
 - type: x-blog-rss
