@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Lightsale API
+  title: Amazon Lightsale API Get Operation
   version: 1.0.0
+  description: Returns information about a specific operation.
 schemes:
 - http
 produces:
