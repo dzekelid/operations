@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RedisManagementClient
-  description: REST API for Azure Redis Cache Service.
+  title: Azure Redis Cache API Operations List
+  description: Lists all of the available REST API operations of the Microsoft.Cache
+    provider.
   version: 1.0.0
 host: management.azure.com
 basePath: /
