@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: Microsoft.ResourceHealth
-  description: The Resource Health Client.
+  title: Azure Resource Health API Operations List
+  description: Lists available operations for the resourcehealth resource provider
   version: 1.0.0
 host: management.azure.com
 basePath: /
