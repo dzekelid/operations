@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: ServiceFabricManagementClient
+  title: Azure Service Fabric API Operations List
   version: 1.0.0
+  description: Lists all of the available ServiceFabric REST API operations.
 host: management.azure.com
 basePath: /
 schemes:
