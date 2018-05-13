@@ -27,7 +27,20 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-deployments-deploymentname-operations-get.md
+- name: Azure Resource Manager API Deployment Operations Get
+  description: Gets a deployments operation.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
+  humanURL: https://docs.microsoft.com/en-us/rest/api/resources/
+  baseURL: http:://management.azure.com//
+  tags: Operations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-deployments-deploymentname-operations-operationid-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-manager/subscriptions-subscriptionid-resourcegroups-resourcegroupname-deployments-deploymentname-operations-operationid-get-postman.md
 x-common:
+- type: x-website
+  url: https://docs.microsoft.com/en-us/rest/api/resources/
 - type: x-website
   url: https://docs.microsoft.com/en-us/rest/api/resources/
 include: []
