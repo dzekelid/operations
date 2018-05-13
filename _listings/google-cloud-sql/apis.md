@@ -28,18 +28,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-operation-get.md
-- name: Google Cloud SQL API Get Projects Project Operations
-  description: Lists all instance operations that have been performed on the given
-    Cloud SQL instance in the reverse chronological order of the start time.
+- name: Google Cloud SQL API Get Projects Project Operations Operation
+  description: Retrieves an instance operation that has been performed on an instance.
   image: ""
   humanURL: https://cloud.google.com/sql/
   baseURL: http:://www.googleapis.com//sql/v1beta4
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-operation-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projects-project-operations-operation-get-postman.md
 x-common:
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
