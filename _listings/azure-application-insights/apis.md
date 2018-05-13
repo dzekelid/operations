@@ -29,7 +29,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-application-insights/providers-microsoft-insights-operations-get.md
+- name: Azure Application Insights API List Operations
+  description: Lists all of the available insights REST API operations.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: http:://management.azure.com//
+  tags: Operations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-application-insights/providers-microsoft-insights-operations-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-application-insights/providers-microsoft-insights-operations-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/application-insights/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/application-insights/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/application-insights/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/application-insights/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
 - type: x-pricing
