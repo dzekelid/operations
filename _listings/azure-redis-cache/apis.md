@@ -24,7 +24,29 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/providers-microsoft-cache-operations-get.md
+- name: Azure Redis Cache API Operations List
+  description: Lists all of the available REST API operations of the Microsoft.Cache
+    provider.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
+  humanURL: https://azure.microsoft.com/en-us/services/cache/
+  baseURL: http:://management.azure.com//
+  tags: Operations
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/providers-microsoft-cache-operations-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/providers-microsoft-cache-operations-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/redis-cache/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/cache/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/cache/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/cache/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
 - type: x-pricing
