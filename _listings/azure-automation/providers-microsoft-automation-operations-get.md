@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AutomationManagementClient
+  title: Azure Automation API List Operations
   version: 1.0.0
+  description: Lists all of the available Automation REST API operations.
 host: management.azure.com
 basePath: /
 schemes:
