@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API Operations List
   version: 1.0.0
+  description: Lists all of the available REST API operations of the Microsoft.Storsimple
+    provider
 host: management.azure.com
 basePath: /
 schemes:
