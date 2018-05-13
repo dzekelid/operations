@@ -1,8 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: EventHubManagementClient
-  description: Azure Event Hubs client
+  title: Azure Event Hubs API Operations List
+  description: Lists all of the available Event Hub REST API operations.
   version: 1.0.0
 host: management.azure.com
 basePath: /
