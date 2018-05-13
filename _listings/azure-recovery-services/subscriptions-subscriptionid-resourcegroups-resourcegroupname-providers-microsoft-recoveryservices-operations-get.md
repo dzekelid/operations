@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: RecoveryServicesClient
+  title: Azure Recovery Service API Operations List
   version: 1.0.0
+  description: Returns the list of available operations.
 host: management.azure.com
 basePath: /
 schemes:
