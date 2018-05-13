@@ -24,18 +24,18 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-storsimple-operations-get.md
-- name: Azure Storage API List Supported Operations
-  description: Returns the list of operations supported by the import/export resource
-    provider.
+- name: Azure Storage API Operations List
+  description: Lists all of the available REST API operations of the Microsoft.Storsimple
+    provider
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png
   humanURL: https://azure.microsoft.com/en-us/services/storage/
   baseURL: http:://management.azure.com//
   tags: Operations
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-importexport-operations-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-storsimple-operations-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-importexport-operations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/providers-microsoft-storsimple-operations-get-postman.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/storage/
