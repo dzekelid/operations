@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: StorSimpleSeries8000ManagementClient
+  title: Azure Storage API List Supported Operations
   version: 1.0.0
+  description: Returns the list of operations supported by the import/export resource
+    provider.
 host: management.azure.com
 basePath: /
 schemes:
