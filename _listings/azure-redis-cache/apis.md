@@ -8,37 +8,30 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Operations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Redis Cache API Operations List
-  x-api-slug: azure-redis-cache-api
+- name: RedisManagementClient - Operations List
+  x-api-slug: providersmicrosoft-cacheoperations-get
   description: Lists all of the available REST API operations of the Microsoft.Cache
     provider.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
   humanURL: https://azure.microsoft.com/en-us/services/cache/
-  baseURL: ://management.azure.com////providers/Microsoft.Cache/operations
-  tags: Operations
+  baseURL: ://management.azure.com//
+  tags: Caching, Microsoft, Stack Network, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/providersmicrosoft-cacheoperations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/providersmicrosoft-cacheoperations-get-openapi.md
-- name: Azure Redis Cache API
-  x-api-slug: azure-redis-cache-api
-  description: Azure Redis Cache is based on the popular open source Redis cache.
-    It gives you access to a secure, dedicated Redis cache, managed by Microsoft and
-    accessible from any application within Azure.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png
-  humanURL: https://azure.microsoft.com/en-us/services/cache/
-  baseURL: ://management.azure.com//
-  tags: Operations
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://azure.recovery.services.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://azure.redis.cache.stack.network
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/redis-cache/
 - type: x-pricing

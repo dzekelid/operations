@@ -1,0 +1,755 @@
+{
+	"name": "Streadata.io API Gallery - Operations",
+	"description": "This is a repository of operations APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/operations.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://operations.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Expedia",
+			"x-api-slug": "expedia",
+			"description": "Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc. Our technology powers the hotel offering of thousands of partners around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg",
+			"humanURL": "http://developer.ean.com/",
+			"baseURL": "https://apim.expedia.com/x/",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/expedia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Lightsale",
+			"x-api-slug": "aws-lightsale",
+			"description": "Amazon Lightsail is the easiest way to get started with AWS for developers who just need virtual private servers. Lightsail includes everything you need to launch your project quickly - a virtual machine, SSD-based storage, data transfer, DNS management, and a static IP - for a low, predictable price. You manage those Lightsail servers through the Lightsail console or by using the API or command-line interface (CLI).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-lightsail.png",
+			"humanURL": "https://amazonlightsail.com/",
+			"baseURL": ":///",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/aws-lightsale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google App Engine",
+			"x-api-slug": "google-app-engine",
+			"description": "Build modern web and mobile applications on an open cloud platform: bring your own language runtimes, frameworks, and third party libraries. Google App Engine is a fully managed platform that completely abstracts away infrastructure so you focus only on code. Go from zero to planet-scale and see why some of today&rsquo;s most successful companies power their applications on App Engine.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-app-engine-icon.png",
+			"humanURL": "https://cloud.google.com/appengine/",
+			"baseURL": "://appengine.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-app-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"x-api-slug": "google-cloud-container-builder",
+			"description": "Google Cloud Container Builder lets you create Docker container images from application source code located in Google Cloud Storage. Container images created by Container Builder are automatically stored in Google Container Registry. You can deploy the container images you create on Google Container Engine, Google Compute Engine, Google App Engine flexible environment or other services where you can run applications from Docker containers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/container-builder-lead.png",
+			"humanURL": "https://cloud.google.com/container-builder/",
+			"baseURL": "://cloudbuild.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-container-builder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Resource Manager",
+			"x-api-slug": "google-cloud-resource-manager",
+			"description": "Google Cloud Platform provides resource containers such as Organizations and Projects, that allow you to group and hierarchically organize other Cloud Platform resources. This hierarchical organization lets you easily manage common aspects of your resources such as access control and configuration settings. The Google Cloud Resource Manager service enables you to programmatically manage these resource containers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png",
+			"humanURL": "https://cloud.google.com/resource-manager/",
+			"baseURL": "://cloudresourcemanager.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-resource-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud User Accounts",
+			"x-api-slug": "google-cloud-user-accounts",
+			"description": "Service for managing the global Google Cloud user accounts. This API reference is organized by resource type. Each resource type has one or more data representations and one or more methods.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-icon.png",
+			"humanURL": "https://cloud.google.com/compute/docs/access/user-accounts/api/latest/",
+			"baseURL": "://www.googleapis.com//clouduseraccounts/vm_alpha/projects",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-user-accounts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Compute Engine",
+			"x-api-slug": "google-compute-engine",
+			"description": "Google Compute Engine delivers virtual machines running in Googles innovative data centers and worldwide fiber network. Compute Engines tooling and workflow support enable scaling from single instances to global, load-balanced cloud computing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Google_Compute_Engine_logo.png",
+			"humanURL": "https://cloud.google.com/compute/",
+			"baseURL": "://www.googleapis.com//compute/v1/projects",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-compute-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Container Engine",
+			"x-api-slug": "google-container-engine",
+			"description": "Google Container Engine is a powerful cluster manager and orchestration system for running your Docker containers. Container Engine schedules your containers into the cluster and manages them automatically based on requirements you define (such as CPU and memory). Its built on the open source Kubernetes system, giving you the flexibility to take advantage of on-premises, hybrid, or public cloud infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/docker-container.png",
+			"humanURL": "https://cloud.google.com/container-engine/",
+			"baseURL": "://container.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-container-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"x-api-slug": "google-cloud-dataproc",
+			"description": "Use Google Cloud Dataproc, an Apache Hadoop, Apache Spark, Apache Pig, and Apache Hive service, to easily process big datasets at low cost. Control your costs by quickly creating managed clusters of any size and turning them off when youre done. Cloud Dataproc integrates across Google Cloud Platform products, giving you a powerful and complete data processing platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/dataproc.png",
+			"humanURL": "https://cloud.google.com/dataproc/",
+			"baseURL": "://dataproc.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-dataproc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Deployment Manager",
+			"x-api-slug": "google-cloud-deployment-manager",
+			"description": "Google Cloud Deployment Manager allows you to specify all the resources needed for your application in a declarative format using yaml. You can also use Python or Jinja2 templates to parameterize the configuration and allow reuse of common deployment paradigms such as a load balanced, auto-scaled instance group. Treat your configuration as code and perform repeatable deployments.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/repeatable-deployment-process.png",
+			"humanURL": "https://cloud.google.com/deployment-manager/",
+			"baseURL": "https:///",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-deployment-manager/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Genomics",
+			"x-api-slug": "google-genomics",
+			"description": "Google Genomics helps the life science community organize the world&rsquo;s genomic information and make it accessible and useful. Big genomic data is here today, with petabytes rapidly growing toward exabytes. Through our extensions to Google Cloud Platform, you can apply the same technologies that power Google Search and Maps to securely store, process, explore, and share large, complex datasets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/power-your-science.png",
+			"humanURL": "https://cloud.google.com/genomics/",
+			"baseURL": "://genomics.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-genomics/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Machine Learning Engine",
+			"x-api-slug": "google-cloud-machine-learning-engine",
+			"description": "Google Cloud Machine Learning Engine is a managed service that enables you to easily build machine learning models, that work on any type of data, of any size. Create your model with the powerful TensorFlow framework that powers many Google products, from Google Photos to Google Cloud Speech. Build models of any size with our managed scalable infrastructure. Your trained model is immediately available for use with our global prediction platform that can support thousands of users and TBs of data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-ml.png",
+			"humanURL": "https://cloud.google.com/ml-engine/",
+			"baseURL": "://ml.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-machine-learning-engine/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Speech",
+			"x-api-slug": "google-speech",
+			"description": "Google Cloud Speech API enables developers to convert audio to text by applying powerful neural network models in an easy to use API. The API recognizes over 80 languages and variants, to support your global user base. You can transcribe the text of users dictating to an application&rsquo;s microphone, enable command-and-control through voice, or transcribe audio files, among many other use cases. Recognize audio uploaded in the request, and integrate with your audio storage on Google Cloud Storage, by using the same technology Google uses to power its own products.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/speech-api-lead_2x.png",
+			"humanURL": "https://cloud.google.com/speech/",
+			"baseURL": "://speech.googleapis.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-speech/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud SQL",
+			"x-api-slug": "google-cloud-sql",
+			"description": "Cloud SQL is a fully-managed database service that makes it easy to set up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL databases in the cloud. Cloud SQL offers high performance, scalability, and convenience. Hosted on Google Cloud Platform, Cloud SQL provides a database infrastructure for applications running anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png",
+			"humanURL": "https://cloud.google.com/sql/",
+			"baseURL": "://www.googleapis.com//sql/v1beta4",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Storage",
+			"x-api-slug": "google-cloud-storage",
+			"description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving. Google Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Google Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png",
+			"humanURL": "https://cloud.google.com/storage/",
+			"baseURL": "https:///",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Advisor",
+			"x-api-slug": "azure-advisor",
+			"description": "Azure Advisor is a personalized recommendation engine that helps you follow Azure best practices. It analyzes your Azure resource configuration and usage telemetry, then provides recommendations that can reduce costs and improve the performance, security, and reliability of your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/improve-what-matters.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/advisor/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-advisor/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Application Insights",
+			"x-api-slug": "azure-application-insights",
+			"description": "Get rich performance monitoring, powerful alerting, and easy-to-consume dashboards to help ensure your applications are available and performing as you expect. Quickly see if you have a problem, how many customers are affected, and perform a root cause analysis to find and fix the issue.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/application-insights/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-application-insights/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Billing API",
+			"x-api-slug": "azure-billing-api",
+			"description": "Use Azure Billing APIs to pull usage and resource data into your preferred data analysis tools. The Azure Resource Usage and RateCard APIs can help you accurately predict and manage your costs. The APIs are implemented as a Resource Provider and part of the family of APIs exposed by the Azure Resource Manager.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-billing-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure CDN",
+			"x-api-slug": "azure-cdn",
+			"description": "Ensuring a consistent user experience is important. If your websites or mobile apps involve streaming media, gaming software, firmware updates (Smart TVs, consumer electronic appliances) or IoT endpoints (cars, sensors), Content Delivery Network helps you reduce load times, save bandwidth, and increase responsiveness.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/02-delivery.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/cdn/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-cdn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Cognitive Services",
+			"x-api-slug": "azure-cognitive-services",
+			"description": "Enable natural and contextual interaction with tools that augment users experiences using the power of machine-based intelligence. Tap into an ever-growing collection of powerful artificial intelligence algorithms for vision, speech, language, and knowledge.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/cognitive-services/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-cognitive-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Container Registry",
+			"x-api-slug": "azure-container-registry",
+			"description": "Azure Container Registry allows you to store images for all types of container deployments including DC/OS, Docker Swarm, Kubernetes, and Azure services such as App Service, Batch, Service Fabric, and others. Your DevOps team can manage the configuration of apps isolated from the configuration of the hosting environment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-manage-containers.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/container-registry/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-container-registry/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Event Hubs",
+			"x-api-slug": "azure-event-hubs",
+			"description": "Azure Event Hubs is a hyper-scale telemetry ingestion service that collects, transforms, and stores millions of events. As a distributed streaming platform, it gives you low latency and configurable time retention, which enables you to ingress massive amounts of telemetry into the cloud and read the data from multiple applications using publish-subscribe semantics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-event-hubs-stream.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/event-hubs/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-event-hubs/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure HDInsight",
+			"x-api-slug": "azure-hdinsight",
+			"description": "Azure HDInsight is a Hadoop-based service that brings an Apache Hadoop solution to the cloud. Gain the full value of big data with a cloud-based data platform that manages data of any type and size.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-hdinsights-open-source-analytics.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/hdinsight/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-hdinsight/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Logic Apps",
+			"x-api-slug": "azure-logic-apps",
+			"description": "You can connect apps, data, and devices anywhere&mdash;on-premises or in the cloud&mdash;with our large ecosystem of software as a service (SaaS) and cloud-based connectors that includes Salesforce, Office 365, Twitter, Dropbox, Google services, and more. Its never been easier to access data and keep your disparate systems up-to-date, in real-time. New connectors are being added to the Azure Marketplace all of the time.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-logic-apps-01-connectors.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/logic-apps/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-logic-apps/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Recovery Services",
+			"x-api-slug": "azure-recovery-services",
+			"description": "Learn how to use Site Recovery for business continuity and disaster recovery strategy for private clouds. Tutorials and other documentation show you how to plan, deploy, and manage the orchestration of replicating on-premises physical servers and virtual machines to the cloud or to a secondary datacenter.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-site-recovery.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/site-recovery/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-recovery-services/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Redis Cache",
+			"x-api-slug": "azure-redis-cache",
+			"description": "Azure Redis Cache is based on the popular open source Redis cache. It gives you access to a secure, dedicated Redis cache, managed by Microsoft and accessible from any application within Azure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-redis-cache-performance.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/cache/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Resource Health",
+			"x-api-slug": "azure-resource-health",
+			"description": "Resource health helps you diagnose and get support when an Azure issue impacts your resources. It informs you about the current and past health of your resources and helps you mitigate issues. Resource health provides technical support when you need help with Azure service issues.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-health.png",
+			"humanURL": "https://docs.microsoft.com/en-us/azure/resource-health/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Service Bus",
+			"x-api-slug": "azure-service-bus",
+			"description": "Depend on Azure Service Bus when you need highly-reliable cloud messaging service between applications and services, even when one or more is offline. Available in every Azure region, this fully-managed service eliminates the burdens of server management and licensing. Asynchronous operations give you flexible, brokered messaging between client and server, along with structured first-in, first-out (FIFO) messaging, and publish/subscribe capabilities&mdash;excellent for tasks like order processing.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-service-bus-anything.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/service-bus/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-service-bus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Service Fabric",
+			"x-api-slug": "azure-service-fabric",
+			"description": "Service Fabric is a microservices platform used to build scalable, reliable, and easily managed applications for the cloud. Addressing the significant challenges in developing and managing cloud applications, Service Fabric allows developers and administrators to avoid solving complex infrastructure problems and focus instead on implementing mission-critical, demanding workloads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/service-fabric-02.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/service-fabric/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-service-fabric/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure SQL Database",
+			"x-api-slug": "azure-sql-database",
+			"description": "Make building and maintaining applications easier and more productive. With built-in intelligence that learns app patterns and adapts to maximize performance, reliability, and data protection, SQL Database is a cloud database built for developers.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-sql-01-stop-worrying.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/sql-database/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-sql-database/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Storage",
+			"x-api-slug": "azure-storage",
+			"description": "Azure Storage offers non-relational data storage including Blob Storage, Table Storage, Queue Storage, and Files.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-storage.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/storage/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lufthansa",
+			"x-api-slug": "lufthansa",
+			"description": "Book your flights to Germany, Italy, UK or France online at attractive low fares. Fly via Frankfurt, Munich or Zurich - Lufthansa United States of America",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28453-lh-partner.jpg",
+			"humanURL": "http://lufthansa.com",
+			"baseURL": "https://api.lufthansa.com//v1",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/lufthansa/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Automox",
+			"x-api-slug": "automox",
+			"description": "Patch any System, any Software, in Any Location with Automox. Our cloud-based patching management software was built for todays IT professionals.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28761-docs-automox-com.jpg",
+			"humanURL": "https://automox.com",
+			"baseURL": "https://console.automox.com//api",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/automox/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Operations",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Operations",
+	"include": [
+		{
+			"name": "Expedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/expedia/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "AWS Lightsale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/aws-lightsale/apis.yaml"
+		},
+		{
+			"name": "Google App Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-app-engine/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Container Builder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-container-builder/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Resource Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-resource-manager/apis.yaml"
+		},
+		{
+			"name": "Google Cloud User Accounts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-user-accounts/apis.yaml"
+		},
+		{
+			"name": "Google Compute Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-compute-engine/apis.yaml"
+		},
+		{
+			"name": "Google Container Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-container-engine/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Dataproc",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-dataproc/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Deployment Manager",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-deployment-manager/apis.yaml"
+		},
+		{
+			"name": "Google Genomics",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-genomics/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Machine Learning Engine",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-machine-learning-engine/apis.yaml"
+		},
+		{
+			"name": "Google Speech",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-speech/apis.yaml"
+		},
+		{
+			"name": "Google Cloud SQL",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-storage/apis.yaml"
+		},
+		{
+			"name": "Azure Advisor",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-advisor/apis.yaml"
+		},
+		{
+			"name": "Azure Application Insights",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-application-insights/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Azure Billing API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-billing-api/apis.yaml"
+		},
+		{
+			"name": "Azure CDN",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-cdn/apis.yaml"
+		},
+		{
+			"name": "Azure Cognitive Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-cognitive-services/apis.yaml"
+		},
+		{
+			"name": "Azure Container Registry",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-container-registry/apis.yaml"
+		},
+		{
+			"name": "Azure Event Hubs",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-event-hubs/apis.yaml"
+		},
+		{
+			"name": "Azure HDInsight",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-hdinsight/apis.yaml"
+		},
+		{
+			"name": "Azure Logic Apps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-logic-apps/apis.yaml"
+		},
+		{
+			"name": "Azure Recovery Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-recovery-services/apis.yaml"
+		},
+		{
+			"name": "Azure Redis Cache",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-redis-cache/apis.yaml"
+		},
+		{
+			"name": "Azure Resource Health",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-resource-health/apis.yaml"
+		},
+		{
+			"name": "Azure Service Bus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-service-bus/apis.yaml"
+		},
+		{
+			"name": "Azure Service Fabric",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-service-fabric/apis.yaml"
+		},
+		{
+			"name": "Azure SQL Database",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-sql-database/apis.yaml"
+		},
+		{
+			"name": "Azure Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/azure-storage/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Lufthansa",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/lufthansa/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "Automox",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/automox/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}

@@ -10,51 +10,69 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Operations
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud SQL API Get Projects Project Operations
-  x-api-slug: google-cloud-sql-api
+- name: Cloud SQL Administration - Get Projects Project Operations
+  x-api-slug: projectsprojectoperations-get
   description: Lists all instance operations that have been performed on the given
     Cloud SQL instance in the reverse chronological order of the start time.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png
   humanURL: https://cloud.google.com/sql/
-  baseURL: ://www.googleapis.com//sql/v1beta4//projects/{project}/operations
-  tags: Projects, Project, Operations
+  baseURL: ://www.googleapis.com//sql/v1beta4
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperations-get-openapi.md
-- name: Google Cloud SQL API Get Projects Project Operations Operation
-  x-api-slug: google-cloud-sql-api
+- name: Cloud SQL Administration - Get Projects Project Operations Operation
+  x-api-slug: projectsprojectoperationsoperation-get
   description: Retrieves an instance operation that has been performed on an instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png
   humanURL: https://cloud.google.com/sql/
-  baseURL: ://www.googleapis.com//sql/v1beta4//projects/{project}/operations/{operation}
-  tags: Projects, Project, Operations, Operation
+  baseURL: ://www.googleapis.com//sql/v1beta4
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperationsoperation-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperationsoperation-get-openapi.md
-- name: Google Cloud SQL API
-  x-api-slug: google-cloud-sql-api
-  description: Cloud SQL is a fully-managed database service that makes it easy to
-    set up, maintain, manage, and administer your relational PostgreSQL BETA and MySQL
-    databases in the cloud. Cloud SQL offers high performance, scalability, and convenience.
-    Hosted on Google Cloud Platform, Cloud SQL provides a database infrastructure
-    for applications running anywhere.
+- name: Cloud SQL Administration - Get Projects Project Operations Operation
+  x-api-slug: projectsprojectoperationsoperation-get
+  description: Retrieves an instance operation that has been performed on an instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png
   humanURL: https://cloud.google.com/sql/
   baseURL: ://www.googleapis.com//sql/v1beta4
-  tags: Operations
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperationsoperation-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperationsoperation-get-openapi.md
+- name: Cloud SQL Administration - Get Projects Project Operations Operation
+  x-api-slug: projectsprojectoperationsoperation-get
+  description: Retrieves an instance operation that has been performed on an instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-sql-lead-2x.png
+  humanURL: https://cloud.google.com/sql/
+  baseURL: ://www.googleapis.com//sql/v1beta4
+  tags: Google APIs, Stack Network, API Service Provider, API Provider, Databases,
+    Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperationsoperation-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/operations/master/_listings/google-cloud-sql/projectsprojectoperationsoperation-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.cloud.spanner.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.sql.stack.network
 - type: x-change-log
   url: https://cloud.google.com/sql/docs/release-notes
 - type: x-code

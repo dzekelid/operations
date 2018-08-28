@@ -140,6 +140,107 @@ paths:
       tags:
       - Operations
       - Cancel
+  /api/Ethereum/{operationId}/transfer:
+    post:
+      summary: Add API Ethereum Operation Transfer
+      description: Add api ethereum operation transfer.
+      operationId: ApiEthereumByOperationIdTransferPost
+      x-api-path-slug: apiethereumoperationidtransfer-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: operationId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Ethereum
+      - Operation
+      - Transfer
+  /api/Ethereum/{operationId}/hash:
+    post:
+      summary: Add API Ethereum Operation Hash
+      description: Add api ethereum operation hash.
+      operationId: ApiEthereumByOperationIdHashPost
+      x-api-path-slug: apiethereumoperationidhash-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: path
+        name: operationId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Ethereum
+      - Operation
+      - Hash
+  /api/offchain/{operationId}/transferToTrusted:
+    post:
+      summary: Add API Offchain Operation Transfertotrusted
+      description: Add api offchain operation transfertotrusted.
+      operationId: ApiOffchainByOperationIdTransferToTrustedPost
+      x-api-path-slug: apioffchainoperationidtransfertotrusted-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: operationId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Offchain
+      - Operation
+      - Transfertotrusted
+  /api/TrustedWallets/{operationId}/transfer:
+    post:
+      summary: Add API Trustedwallets Operation Transfer
+      description: Add api trustedwallets operation transfer.
+      operationId: Transfer
+      x-api-path-slug: apitrustedwalletsoperationidtransfer-post
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: path
+        name: operationId
+      responses:
+        200:
+          description: OK
+      tags:
+      - Trustedwallets
+      - Operation
+      - Transfer
+  /api/BcnTransactionByCashOperation/{id}:
+    get:
+      summary: Get API Bcntransactionbycashoperation
+      description: Get api bcntransactionbycashoperation.
+      operationId: ApiBcnTransactionByCashOperationByIdGet
+      x-api-path-slug: apibcntransactionbycashoperationid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: access token
+      - in: path
+        name: id
+      responses:
+        200:
+          description: OK
+      tags:
+      - Bcntransactionbycashoperation
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
